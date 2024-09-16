@@ -4,7 +4,7 @@
 
 
 ## Página principal del curso
-[VOLVER PÁGINA PRINCIPAL](https://github.com/profeMelola/LM-00-2023-24)
+[VOLVER PÁGINA PRINCIPAL](https://github.com/profeMelola/DWES-00-2024-25)
 
 ## Licencia
 
