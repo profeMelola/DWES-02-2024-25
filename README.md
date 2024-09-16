@@ -1,6 +1,6 @@
 # Programación web con Jakarta EE
 
-![pngwing com](https://github.com/user-attachments/assets/2bc70159-f310-4c30-8533-63dda9d4a3cd)
+<img src='https://github.com/user-attachments/assets/2bc70159-f310-4c30-8533-63dda9d4a3cd' height='200px'/>
 
 
 ## Página principal del curso
