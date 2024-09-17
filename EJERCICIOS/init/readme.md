@@ -5,7 +5,7 @@
 
 1. Utiliza el proyecto web del ejercicio anterior ParamsGetServlet y crea un servlet y siguiendo el siguiente código haz la prueba realizando diferentes peticiones para ver el valor de la variable *peticiones*.
 
-2. Utiliza la siguiente anotación @WebServlet
+2. Utiliza la siguiente anotación @WebServlet en vez de la sencilla @WebServlet("/init")
 
 ```
 @WebServlet(
