@@ -31,9 +31,9 @@
 
 ```
     <h1>Mi primera app web</h1>
-    <p>Ejemplo 1: <a href="hola-mundo">Ejecutar el Servlet Hola Mundo</a></p>
-    <p>Ejemplo 2: <a href="url-get?saludo=Hola caracola">Ejecutar el ParamsGetServlet (url-get?saludo=Hola caracola)</a></p>
-
+    <p><a href="url-get?saludo=Hola caracola">Ejecutar el ParamsGetServlet (url-get?saludo=Hola caracola)</a></p>
+    <p><a href="url-get?saludo=Hola&nombre=melola&codigo=666">Ejecutar el ParamsGetServlet con 3 params(url-get?saludo=Hola&nombre=melola&codigo=666)</a></p>
+    <p><a href="url-get?saludo=Hola&nombre=melola&codigo=66">Ejecutar el ParamsGetServlet con 3 params(url-get?saludo=Hola&nombre=melola&codigo=66)</a></p>
 ```
 
 ## Ampliación
