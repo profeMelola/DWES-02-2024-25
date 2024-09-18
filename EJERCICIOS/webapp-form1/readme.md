@@ -31,7 +31,7 @@ Si se ha rellenado correctamente el formulario, el servlet debe devolver esta p�
 
 ![image](https://github.com/user-attachments/assets/c5fa1216-f499-4fb5-9758-9494aa1b40a9)
 
-# FASE II: Recoger datos de un formulario (Servlet + JSP)
+# FASE II: Recoger datos de un formulario (Servlet + JSP) -> Práctica guiada
 
 Vamos a mejorar la aplicación separando la creación del html de salida del código java del Servlet.
 
@@ -59,5 +59,7 @@ Utilizaremos en el Sevlet una colección Map para indicar el campo del formulari
 Ese Map lo utilizaré en la página jsp para pintar los errores. Esta será la página html resultado:
 
 ![image](https://github.com/user-attachments/assets/0a67533c-6896-4ffb-88d1-3fd5f634376e)
+
+Haz una copia de la página index.html y guárdala como index.jsp. Sigue las instrucciones del profesor para añadir las etiquetas JSP pertinentes.
 
 
