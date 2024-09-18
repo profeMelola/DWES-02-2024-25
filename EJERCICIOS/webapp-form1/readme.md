@@ -46,4 +46,17 @@ En el caso de que haya errores en el formulario, se redigirá la salida desde el
   getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
 ```
 
+Utilizaremos en el Sevlet una colección Map para indicar el campo del formulario y la descripción del error. Por ejemplo:
+
+```
+  Map<String, String> errores = new HashMap<>();
+
+  if (username == null || username.isBlank()) {
+      errores.put("username", "el username es requerido!");
+  }
+```
+
+Ese Map lo utilizaré en la página jsp para pintar los errores:
+
+![image](https://github.com/user-attachments/assets/0dbdca02-212c-47cf-8e64-354058745a18)
 
