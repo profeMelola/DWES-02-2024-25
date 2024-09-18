@@ -56,7 +56,8 @@ Utilizaremos en el Sevlet una colección Map para indicar el campo del formulari
   }
 ```
 
-Ese Map lo utilizaré en la página jsp para pintar los errores:
+Ese Map lo utilizaré en la página jsp para pintar los errores. Esta será la página html resultado:
 
-![image](https://github.com/user-attachments/assets/0dbdca02-212c-47cf-8e64-354058745a18)
+![image](https://github.com/user-attachments/assets/0a67533c-6896-4ffb-88d1-3fd5f634376e)
+
 
