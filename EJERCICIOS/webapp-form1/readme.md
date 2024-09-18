@@ -1,4 +1,4 @@
-# Recoger datos de un formulario
+# FASE I: Recoger datos de un formulario (Servlet + salida html con PrintWriter)
 
 Vamos a aprender a leer los parámetros enviados desde un formularios.
 
@@ -30,4 +30,12 @@ Debemos devolver una página html para informar al usuario.
 Si se ha rellenado correctamente el formulario, el servlet debe devolver esta página html:
 
 ![image](https://github.com/user-attachments/assets/c5fa1216-f499-4fb5-9758-9494aa1b40a9)
+
+# FASE II: Recoger datos de un formulario (Servlet + JSP)
+
+Vamos a mejorar la aplicación separando la creación del html de salida del código java del Servlet.
+
+Java Server Pages (JSP) es una tecnología que se utiliza para desarrollar páginas web insertando Java código en las páginas HTML mediante la creación de etiquetas JSP especiales. 
+
+Las etiquetas JSP que permiten java El código que se incluirá en él es <% —-java código—-%>
 
