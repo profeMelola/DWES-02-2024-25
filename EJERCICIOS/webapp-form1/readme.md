@@ -4,7 +4,7 @@ Vamos a aprender a leer los parámetros enviados desde un formularios.
 
 Usaremos nuestra primera página JSP.
 
-Llamaremos a nuestro proyecto **webapp-form1**
+Llamaremos a nuestro proyecto **webappForm1**
 
 Viendo la página index.jsp ¿Cómo debe llamarse el servlet?
 
