@@ -38,21 +38,10 @@
 
 ## Ampliación
 
-Añadir el código necesario al sevlet para gestionar recibir un nuevo parámetro llamado codigo que contendrá un valor numérico.
+Corrige el error que sale al hacer clic en el primer enlace de la página index.html.
 
-**Pista:** observa la diferencia entre los métodos parseInt y valueOf de Integer
-
-### Página html de prueba (cliente)
-
-![image](https://github.com/user-attachments/assets/78e7f914-5aa0-4e48-b7aa-406b3af458e1)
-
-¿Qué es url-get2?
-
-### Página html (respuesta del servlet)
-
-![image](https://github.com/user-attachments/assets/2bb4e36f-368c-41df-a891-7a930659c768)
+![image](https://github.com/user-attachments/assets/6e7c680b-a336-4d27-9727-e9611f18818d)
 
 
-
-
+En vez de que salga el error, que el servlet devuelva un mensaje indicando que el código no puede ser nulo.
 
