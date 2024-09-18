@@ -1,6 +1,19 @@
 # Ejemplo Servlet con pasos de parámetros por Get
 
-![image](https://github.com/user-attachments/assets/1b69c449-e8c6-4c98-a3a4-ac0f7554de89)
+## Página index.html
+
+![image](https://github.com/user-attachments/assets/77665391-86b5-4522-a3f2-2e78ca8da99b)
+
+## Diferentes páginas html resultado
+
+**Si el código es superior a 100:**
+
+![image](https://github.com/user-attachments/assets/1656e969-404e-46dc-9932-d23f4e52a41f)
+
+**Si el código no es superior a 100:**
+
+![image](https://github.com/user-attachments/assets/6cd252ef-1a1a-4b6d-9a51-df2a244eb56d)
+
 
 ## Código de ayuda:
 
