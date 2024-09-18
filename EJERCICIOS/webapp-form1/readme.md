@@ -39,3 +39,11 @@ Java Server Pages (JSP) es una tecnología que se utiliza para desarrollar pági
 
 Las etiquetas JSP que permiten java El código que se incluirá en él es <% —-java código—-%>
 
+En el caso de que haya errores en el formulario, se redigirá la salida desde el servlet a una página JSP:
+
+```
+  req.setAttribute("errores", errores);
+  getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
+```
+
+
