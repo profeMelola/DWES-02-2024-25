@@ -10,6 +10,10 @@ Creamos nuestro proyecto desde **Eclipse Starter** y llamaremos a nuestro proyec
 
 Viendo la página index.jsp ¿Cómo debe llamarse el servlet?
 
+La estructura del proyecto completa, con el jsp y servlet debería quedar así:
+
+![image](https://github.com/user-attachments/assets/e6a2cfa2-14eb-4bc6-bc1a-652dda2c557b)
+
 ## Cliente
 
 Se proporciona la página index.jsp
