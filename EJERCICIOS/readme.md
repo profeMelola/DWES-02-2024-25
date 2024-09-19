@@ -38,9 +38,8 @@ Una vez instalada la extensión vamos a instalar el servidor de la siguiente man
 
 Puedo tener en VSC tantos servidores como quiera, teniendo en cuenta que si todos usan el puerto 8080 debo tener uno solo arrancado. También podría configurar cada servidor con un puerto diferente.
 
-Nosotros vamos a parar todos los servidores y dejar únicamente funcionando Wildfly.
+Nosotros vamos a parar todos los servidores y dejar únicamente funcionando Wildfly. Deberíamos tener algo similar a esto:
 
-Por ejemplo:
+![image](https://github.com/user-attachments/assets/ce316532-40f5-4d01-83ac-64d83571b2e0)
 
-![image](https://github.com/user-attachments/assets/9296dd96-23c5-4e34-b94b-261e654fe8a1)
 
