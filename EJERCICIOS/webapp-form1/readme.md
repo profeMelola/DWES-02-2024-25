@@ -20,6 +20,19 @@ Se proporciona la página index.jsp
 
 ![image](https://github.com/user-attachments/assets/ed4c8243-d89f-42e0-a943-df594ad64ca2)
 
+
+Para poder acceder a dicha página JSP a través del navegador necesito indicar en la url la ruta completa porque si no da el siguiente error:
+
+![image](https://github.com/user-attachments/assets/c2901b64-dbc3-42a2-8e12-373d5d64fce6)
+
+La ruta completa sería: http://localhost:8080/webapp-form1/index.jsp
+
+Esto es debido, a que los proyectos generados con el Eclipse Starter tienen una directiva de bienvenida en el archivo de configuración web.xml
+
+![image](https://github.com/user-attachments/assets/dd44f77c-5066-4f3f-aca6-767bfac31783)
+
+
+
 ## Servidor
 
 Debemos de realizar las siguientes validaciones en el servidor (no el el cliente vía javascript o html5):
