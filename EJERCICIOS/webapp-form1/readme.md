@@ -27,10 +27,12 @@ Para poder acceder a dicha página JSP a través del navegador necesito indicar 
 
 La ruta completa sería: http://localhost:8080/webapp-form1/index.jsp
 
-Esto es debido, a que los proyectos generados con el Eclipse Starter tienen una directiva de bienvenida en el archivo de configuración web.xml
+Esto es debido, a que los proyectos generados con el Eclipse Starter tienen una directiva de bienvenida en el **archivo de configuración web.xml**
 
 ![image](https://github.com/user-attachments/assets/dd44f77c-5066-4f3f-aca6-767bfac31783)
 
+
+En Jakarta EE 10, el uso del archivo web.xml no es obligatorio gracias a las anotaciones, pero sigue siendo una opción válida si prefieres centralizar configuraciones o si tienes necesidades específicas.
 
 
 ## Servidor
