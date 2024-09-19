@@ -12,7 +12,7 @@ Viendo la página index.jsp ¿Cómo debe llamarse el servlet?
 
 La estructura del proyecto completa, con el jsp y servlet debería quedar así:
 
-![image](https://github.com/user-attachments/assets/e6a2cfa2-14eb-4bc6-bc1a-652dda2c557b)
+![image](https://github.com/user-attachments/assets/352ef533-6af8-4561-8883-eab8674cee27)
 
 ## Cliente
 
