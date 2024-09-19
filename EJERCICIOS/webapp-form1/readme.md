@@ -2,9 +2,11 @@
 
 Vamos a aprender a leer los parámetros enviados desde un formularios.
 
-Usaremos nuestra primera página JSP.
+Usaremos nuestra primera página JSP que se proporciona en este repositorio.
 
-Llamaremos a nuestro proyecto **webappForm1**
+Creamos nuestro proyecto desde **Eclipse Starter** y llamaremos a nuestro proyecto **webapp-form1**:
+
+![image](https://github.com/user-attachments/assets/ffa107a3-6d16-49eb-94e1-a21c9518ff45)
 
 Viendo la página index.jsp ¿Cómo debe llamarse el servlet?
 
