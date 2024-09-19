@@ -87,12 +87,12 @@ Haz una copia de la página index.html y guárdala como index.jsp. Sigue las ins
 
 ![image](https://github.com/user-attachments/assets/597df347-5bf1-46a6-b57a-c6bd0e521383)
 
+![image](https://github.com/user-attachments/assets/fe4e284c-8521-4492-bd04-e4db09fd2085)
+
 
 ## 1. Vamos a incluir Bootstrap de forma remota en nuestra página añadiendo en la cabecera esta etiqueta:
 
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
-
-![image](https://github.com/user-attachments/assets/fe4e284c-8521-4492-bd04-e4db09fd2085)
 
 
 ```
