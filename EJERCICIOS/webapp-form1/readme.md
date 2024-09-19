@@ -83,12 +83,12 @@ Ese Map lo utilizaré en la página jsp para pintar los errores. Esta será la p
 
 Haz una copia de la página index.html y guárdala como index.jsp. Sigue las instrucciones del profesor para añadir las etiquetas JSP pertinentes (https://github.com/profeMelola/DWES-02-2024-25/blob/main/APOYO_TEORIA/jsp.md)
 
-# FASE III: look & feel. Bootstrap ![image](https://github.com/user-attachments/assets/e9765248-ae09-4165-be31-a9bb59ad1f1b)
+# ![image](https://github.com/user-attachments/assets/e9765248-ae09-4165-be31-a9bb59ad1f1b) FASE III: look & feel. Bootstrap 
 
 ![image](https://github.com/user-attachments/assets/597df347-5bf1-46a6-b57a-c6bd0e521383)
 
 
-1. Vamos a incluir Bootstrap de forma remota en nuestra página añadiendo en la cabecera esta etiqueta:
+## 1. Vamos a incluir Bootstrap de forma remota en nuestra página añadiendo en la cabecera esta etiqueta:
 
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
@@ -96,7 +96,13 @@ https://getbootstrap.com/docs/5.3/getting-started/introduction/
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 ```
 
-2. Ahora tenemos que dar estilos a nuestra página. Vamos a añadir estilos a los div de la página index.jsp
+https://getbootstrap.com/docs/5.3/examples/
+
+https://getbootstrap.com/docs/5.3/layout/grid/
+
+https://getbootstrap.com/docs/5.3/components/buttons/
+
+## 2. Ahora tenemos que dar estilos a nuestra página. Vamos a añadir estilos a los div de la página index.jsp
 
 Fijaros en la página html resultado para ver los estilos a aplicar:
 
