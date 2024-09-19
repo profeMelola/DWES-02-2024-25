@@ -92,6 +92,9 @@ Haz una copia de la página index.html y guárdala como index.jsp. Sigue las ins
 
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
+![image](https://github.com/user-attachments/assets/fe4e284c-8521-4492-bd04-e4db09fd2085)
+
+
 ```
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 ```
