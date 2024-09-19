@@ -25,7 +25,8 @@ Después de haber aprendido cómo usar Tomcat para aplicaciones web java basadas
 
 Para ello es necesario instalar en Visual Studio Code la siguiente extensión:
 
-![image](https://github.com/user-attachments/assets/b52367a4-6258-4b37-b878-c5e9ca948600)
+![image](https://github.com/user-attachments/assets/d16f719d-d1df-46d4-b7d0-3db4e1e74158)
+
 
 Una vez instalada la extensión vamos a instalar el servidor de la siguiente manera:
 
