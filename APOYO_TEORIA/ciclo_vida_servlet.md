@@ -18,14 +18,13 @@ Un Servlet es un programa que se ejecuta en un servidor web y maneja peticiones 
 
 En programación concurrente, varios hilos pueden estar ejecutándose al mismo tiempo, y en el caso de los servlets, cada hilo maneja una petición del cliente. Aquí hay algunos conceptos clave de la programación concurrente aplicados a los servlets:
 
-Hilos (Threads): Por cada petición que llega al servidor, se crea un hilo para manejarla. Todos estos hilos usan la misma instancia del servlet para responder, lo que permite manejar múltiples usuarios al mismo tiempo de manera eficiente.
+- **Hilos (Threads):** Por cada petición que llega al servidor, se crea un hilo para manejarla. Todos estos hilos usan la misma instancia del servlet para responder, lo que permite manejar múltiples usuarios al mismo tiempo de manera eficiente.
 
-Problemas de concurrencia: Como varios hilos pueden estar accediendo a la misma instancia del servlet al mismo tiempo, es importante asegurarse de que no se accedan ni modifiquen variables o recursos compartidos sin control. Si no se maneja bien, puede haber condiciones de carrera (cuando dos o más hilos acceden simultáneamente a un recurso compartido y los resultados dependen del orden de ejecución).
+- **Problemas de concurrencia:** Como varios hilos pueden estar accediendo a la misma instancia del servlet al mismo tiempo, es importante asegurarse de que no se accedan ni modifiquen variables o recursos compartidos sin control. Si no se maneja bien, puede haber condiciones de carrera (cuando dos o más hilos acceden simultáneamente a un recurso compartido y los resultados dependen del orden de ejecución).
 
-Sincronización: Para evitar problemas de concurrencia, en algunos casos es necesario utilizar mecanismos de sincronización para controlar el acceso a datos compartidos.
+- **Sincronización:** Para evitar problemas de concurrencia, en algunos casos es necesario utilizar mecanismos de sincronización para controlar el acceso a datos compartidos.
 
 ## Ejemplo simple
-
 
 Imagina que tienes un sitio web que muestra información sobre productos. Cuando múltiples usuarios visitan la página al mismo tiempo, el contenedor de servlets crea varios hilos que manejan cada visita (petición) de manera independiente y paralela, usando la misma instancia del servlet. Los hilos permiten que cada usuario obtenga su respuesta sin necesidad de esperar a que otro termine.
 
