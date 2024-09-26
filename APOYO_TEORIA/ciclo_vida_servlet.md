@@ -7,7 +7,7 @@ Un Servlet es un programa que se ejecuta en un servidor web y maneja peticiones 
 
 ## Ciclo de Vida de un Servlet
 1. **Creación:** Cuando el servidor recibe una petición (por ejemplo, cuando alguien visita una página web que usa servlets), el contenedor de servlets (un programa que gestiona estos servlets, como Tomcat, Jetty, Payara, Glassfish, Wildfly...) primero verifica si el servlet ya está en memoria.
-   - Si el servlet no existe en memoria, el contenedor lo crea llamando al constructor del servlet (normalmente una sola vez).
+   - Si el servlet no existe en memoria, el contenedor lo crea llamando al constructor del servlet.
 3. **Inicialización:** Después de crear el servlet, el contenedor llama al método init(), que inicializa los recursos que el servlet puede necesitar. Esto también ocurre solo una vez, la primera vez que el servlet es creado.
 4. **Manejo de peticiones:** Aquí es donde entra la programación concurrente:
     - Cuando llegan múltiples peticiones de los clientes, el contenedor crea un hilo separado por cada una. Cada hilo ejecuta el método service(), que a su vez puede llamar a métodos como doGet() o doPost() (dependiendo del tipo de petición: GET o POST).
