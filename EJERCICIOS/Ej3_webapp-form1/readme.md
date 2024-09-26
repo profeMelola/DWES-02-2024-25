@@ -81,7 +81,7 @@ Ese Map lo utilizaré en la página jsp para pintar los errores. Esta será la p
 
 ![image](https://github.com/user-attachments/assets/0a67533c-6896-4ffb-88d1-3fd5f634376e)
 
-Haz una copia de la página index.html y guárdala como index.jsp. Sigue las instrucciones del profesor para añadir las etiquetas JSP pertinentes (https://github.com/profeMelola/DWES-02-2024-25/blob/main/APOYO_TEORIA/jsp.md)
+Sigue las instrucciones del profesor para añadir las etiquetas JSP pertinentes (https://github.com/profeMelola/DWES-02-2024-25/blob/main/APOYO_TEORIA/jsp.md)
 
 # ![image](https://github.com/user-attachments/assets/e9765248-ae09-4165-be31-a9bb59ad1f1b) FASE III: look & feel. Bootstrap 
 
