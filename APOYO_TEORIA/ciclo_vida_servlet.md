@@ -6,13 +6,13 @@ Un Servlet es un programa que se ejecuta en un servidor web y maneja peticiones 
 
 
 ## Ciclo de Vida de un Servlet
-1. Creación: Cuando el servidor recibe una petición (por ejemplo, cuando alguien visita una página web que usa servlets), el contenedor de servlets (un programa que gestiona estos servlets, como Tomcat o Jetty) primero verifica si el servlet ya está en memoria.
-Si el servlet no existe en memoria, el contenedor lo crea llamando al constructor del servlet (normalmente una sola vez).
-2. Inicialización: Después de crear el servlet, el contenedor llama al método init(), que inicializa los recursos que el servlet puede necesitar. Esto también ocurre solo una vez, la primera vez que el servlet es creado.
-3. Manejo de peticiones: Aquí es donde entra la programación concurrente:
-    Cuando llegan múltiples peticiones de los clientes, el contenedor crea un hilo separado por cada una. Cada hilo ejecuta el método service(), que a su vez puede llamar a métodos como doGet() o doPost() (dependiendo del tipo de petición: GET o POST).
-    Importante: El servlet no se vuelve a crear para cada petición. En su lugar, múltiples hilos manejan las peticiones concurrentes, usando la misma instancia del servlet.
-4. Destrucción: Cuando el servidor se apaga o el servlet ya no se necesita, el contenedor llama al método destroy(), que libera cualquier recurso que el servlet estaba usando. Esto ocurre solo una vez, cuando el servlet ya no se usará más.
+1. **Creación:** Cuando el servidor recibe una petición (por ejemplo, cuando alguien visita una página web que usa servlets), el contenedor de servlets (un programa que gestiona estos servlets, como Tomcat o Jetty) primero verifica si el servlet ya está en memoria.
+   - Si el servlet no existe en memoria, el contenedor lo crea llamando al constructor del servlet (normalmente una sola vez).
+3. **Inicialización:** Después de crear el servlet, el contenedor llama al método init(), que inicializa los recursos que el servlet puede necesitar. Esto también ocurre solo una vez, la primera vez que el servlet es creado.
+4. **Manejo de peticiones:** Aquí es donde entra la programación concurrente:
+    - Cuando llegan múltiples peticiones de los clientes, el contenedor crea un hilo separado por cada una. Cada hilo ejecuta el método service(), que a su vez puede llamar a métodos como doGet() o doPost() (dependiendo del tipo de petición: GET o POST).
+    - Importante: El servlet no se vuelve a crear para cada petición. En su lugar, múltiples hilos manejan las peticiones concurrentes, usando la misma instancia del servlet.
+5. **Destrucción:** Cuando el servidor se apaga o el servlet ya no se necesita, el contenedor llama al método destroy(), que libera cualquier recurso que el servlet estaba usando. Esto ocurre solo una vez, cuando el servlet ya no se usará más.
 
 ## Relación con la programación concurrente
 
