@@ -26,6 +26,10 @@ En programación concurrente, varios hilos pueden estar ejecutándose al mismo t
 
 ## Ejemplo simple
 
-Imagina que tienes un sitio web que muestra información sobre productos. Cuando múltiples usuarios visitan la página al mismo tiempo, el contenedor de servlets crea varios hilos que manejan cada visita (petición) de manera independiente y paralela, usando la misma instancia del servlet. Los hilos permiten que cada usuario obtenga su respuesta sin necesidad de esperar a que otro termine.
+Imagina que tienes un sitio web que muestra información sobre productos. 
+
+Cuando múltiples usuarios visitan la página al mismo tiempo, el contenedor de servlets crea varios hilos que manejan cada visita (petición) de manera independiente y paralela, usando la misma instancia del servlet. 
+
+Los hilos permiten que cada usuario obtenga su respuesta sin necesidad de esperar a que otro termine.
 
 Sin esta concurrencia, el servidor tendría que manejar las peticiones una por una, lo que haría que la página web fuera mucho más lenta cuando hay muchos usuarios.
