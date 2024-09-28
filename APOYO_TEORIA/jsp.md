@@ -10,6 +10,12 @@ Los archivos JSP se crean dentro de la carpeta webapp.
 
 Cuando el contenedor web recibe una petición HTTP hacia un JSP utiliza un motor JSP para convertir internamente el JSP a servlet y procesar la petición.
 
+Las etiquetas JSP permiten utilizar código Java:
+
+![image](https://github.com/user-attachments/assets/df72882e-4714-4138-a8be-13c909901161)
+
+
+
 ## 1. Directivas
 Las directivas proporcionan información sobre el contenido de la página JSP y afectan el procesamiento de la página.
 
