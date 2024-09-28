@@ -12,7 +12,7 @@ Cuando el contenedor web recibe una petición HTTP hacia un JSP utiliza un motor
 
 Las etiquetas JSP permiten utilizar código Java:
 
-![image](https://github.com/user-attachments/assets/df72882e-4714-4138-a8be-13c909901161)
+<img src="https://github.com/user-attachments/assets/df72882e-4714-4138-a8be-13c909901161" height="200px"/>
 
 
 
