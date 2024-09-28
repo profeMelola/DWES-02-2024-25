@@ -69,6 +69,8 @@ Son fragmentos de código Java que se insertan en una página JSP.
 
 ## 3. Declaración de Objetos Implicitos: JSP proporciona objetos implícitos para interactuar con la solicitud, respuesta, sesión y contexto de aplicación:
 
+Al igual que en los servlets desde JSP también es posible acceder a la petición request y otros objetos implícitos.
+
 - **request:** Representa la solicitud del cliente.
 - **response:** Representa la respuesta al cliente.
 - **session:** Representa la sesión del usuario.
@@ -76,3 +78,15 @@ Son fragmentos de código Java que se insertan en una página JSP.
 - **out:** Representa el objeto de escritura de la respuesta.
 - **config:** Representa la configuración del servlet.
 - **pageContext:** Proporciona un contexto de página más amplio.
+
+## 4. Uso de JavaBeans
+
+Un objeto JavaBean o bean es un objeto instanciado cuya clase cumple:
+- Implementa la interfaz Serializable
+- Tiene constructor vacío 
+- Métodos getter y setter 
+
+Se utilizan para conectar los controles de los formularios a los datos del bean.
+
+![image](https://github.com/user-attachments/assets/c6cea6cb-656e-482c-a078-e5f2ea59c6b6)
+
