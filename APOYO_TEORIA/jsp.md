@@ -6,6 +6,10 @@ https://jakarta.ee/specifications/pages/
 
 Las páginas JSP son archivos con la extensión jsp que contienen etiquetas HTML y XML junto con código Java incrustado.
 
+Los archivos JSP se crean dentro de la carpeta webapp. 
+
+Cuando el contenedor web recibe una petición HTTP hacia un JSP utiliza un motor JSP para convertir internamente el JSP a servlet y procesar la petición.
+
 ## 1. Directivas
 Las directivas proporcionan información sobre el contenido de la página JSP y afectan el procesamiento de la página.
 
