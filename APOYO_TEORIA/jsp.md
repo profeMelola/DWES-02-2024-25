@@ -4,6 +4,8 @@
 
 https://jakarta.ee/specifications/pages/
 
+Las páginas JSP son archivos con la extensión jsp que contienen etiquetas HTML y XML junto con código Java incrustado.
+
 ## 1. Directivas
 Las directivas proporcionan información sobre el contenido de la página JSP y afectan el procesamiento de la página.
 
