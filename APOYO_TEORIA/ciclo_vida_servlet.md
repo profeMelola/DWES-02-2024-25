@@ -2,6 +2,10 @@
 
 Un Servlet es un programa que se ejecuta en un servidor web y maneja peticiones que vienen de los clientes (normalmente navegadores) y envía respuestas. Es como un intermediario entre el usuario y la lógica de una aplicación web.
 
+Un servlet es un componente alojado en un contenedor web, su código es ejecutado cuando el contenedor recibe una petición HTTP.
+
+Los servlets generan páginas web de forma dinámica como consecuencia de las peticiones HTTP recibidas.
+
 ![image](https://github.com/user-attachments/assets/761c327d-0748-4fb5-893f-3a3a2035f165)
 
 
