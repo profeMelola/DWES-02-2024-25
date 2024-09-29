@@ -228,6 +228,13 @@ Fijaros en la página html resultado para ver los estilos a aplicar:
 </html>
 ```
 
+# FASE IV: usando Expression Language API
+
+Cada vez que enviamos los datos y validamos, perdemos los datos del formulario.
+
+Se pueden recuperar esos valores mediante el API EL (Expression Language API) es una tecnología que permite el acceso a los datos de beans, mapas, listas y otras estructuras de datos de manera sencilla y expresiva dentro de tecnologías como JSP (JavaServer Pages) y JSF (JavaServer Faces).
+
+
 
 
 
