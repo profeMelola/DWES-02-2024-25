@@ -60,3 +60,55 @@ Algunas de las operaciones terminales son:
 
 
 https://barcochrist.medium.com/streams-en-java-5712989fc62b
+
+
+## Ejemplos
+
+```
+ArrayList<String> names =
+   Lists.newArrayList(
+       "John", "John", "Mariam", "Alex", "Mohammado", "Mohammado", "Vincent", "Alex", "Alex");
+
+// FILTER
+names.stream().filter(name-> name.contains("o")).forEach(System.out::println);
+
+// MAP
+names.stream()
+     .map(name -> name.length())
+     .collect(Collectors.toList());
+
+// SORTED
+names.stream()
+   .sorted(Comparator.naturalOrder())
+   .forEach(System.out::println);
+
+names.stream()
+   .sorted(Comparator.comparing(String::length))
+   .forEach(System.out::println);
+
+names.stream()
+   .sorted( Comparator
+           .comparing(String::length)
+           .thenComparing(Comparator.naturalOrder()) )
+   .forEach(System.out::println);
+
+names.stream()
+ .distinct()
+ .forEach(System.out::println);
+
+names.stream()
+   .limit(5)
+   .forEach(System.out::println);
+
+// REDUCE
+String reduce = names.stream().reduce("", String::concat);
+
+// COUNT
+int cantidad = names.stream().limit(5).count();
+
+// COLLECT
+List<String> collect = names.stream()
+   .filter(s -> s.contains("o"))
+   .collect(Collectors.toList());
+
+```
