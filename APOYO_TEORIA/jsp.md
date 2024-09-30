@@ -61,6 +61,10 @@ Son fragmentos de código Java que se insertan en una página JSP.
 %>
 ```
 
+No puedes declarar un método dentro de un scriptlet.
+
+Los scriptlets contienen bloques de código Java que se ejecutan dentro del método service() de la página JSP, por lo que cualquier declaración dentro de ellos es local al cuerpo de ese método y no puedes definir un método de esa manera.
+
 ### Expressions: Expresiones Java que se evalúan y se insertan directamente en el flujo de salida.
 
 ```
