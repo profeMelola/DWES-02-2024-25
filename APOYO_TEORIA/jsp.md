@@ -94,3 +94,60 @@ Se utilizan para conectar los controles de los formularios a los datos del bean.
 
 ![image](https://github.com/user-attachments/assets/c6cea6cb-656e-482c-a078-e5f2ea59c6b6)
 
+### Malas prácticas con JavaBeans
+
+```
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="com.ejemplo.Usuario" %>
+<html>
+<head>
+    <title>Ejemplo de JavaBean en JSP</title>
+</head>
+<body>
+
+<% 
+    // Crear una instancia del JavaBean
+    Usuario usuario = new Usuario();
+    
+    // Establecer propiedades
+    usuario.setNombre("Juan");
+    usuario.setEdad(30);
+    
+    // Obtener propiedades
+    String nombre = usuario.getNombre();
+    int edad = usuario.getEdad();
+%>
+
+<h1>Detalles del Usuario</h1>
+<p>Nombre: <%= nombre %></p>
+<p>Edad: <%= edad %></p>
+
+</body>
+</html>
+
+```
+
+### Buenas prácticas con JavaBeans
+
+```
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="com.ejemplo.Usuario" %>
+<html>
+<head>
+    <title>Ejemplo de JavaBean en JSP</title>
+</head>
+<body>
+
+<jsp:useBean id="usuario" class="com.ejemplo.Usuario" scope="session">
+    <jsp:setProperty name="usuario" property="nombre" value="Juan"/>
+    <jsp:setProperty name="usuario" property="edad" value="30"/>
+</jsp:useBean>
+
+<h1>Detalles del Usuario</h1>
+<p>Nombre: <jsp:getProperty name="usuario" property="nombre"/></p>
+<p>Edad: <jsp:getProperty name="usuario" property="edad"/></p>
+
+</body>
+</html>
+
+```
