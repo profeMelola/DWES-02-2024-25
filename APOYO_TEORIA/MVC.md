@@ -3,9 +3,7 @@
 ![image](https://github.com/user-attachments/assets/50dcf927-8a57-4403-b876-7df4a36a94a4)
 
 
-Si no necesitas un cliente web separado y prefieres que el backend y frontend estén juntos en una misma aplicación.
-
-Centrándonos en Spring, puedes usar Spring MVC para manejar tanto las solicitudes HTTP como la generación dinámica de contenido HTML.
+Si no necesitas un cliente web separado y prefieres que el backend y frontend estén juntos en una misma aplicación, cCentrándonos en Spring, puedes usar Spring MVC para manejar tanto las solicitudes HTTP como la generación dinámica de contenido HTML.
 
 - **Spring MVC + Thymeleaf:** Esta es una combinación popular en proyectos con renderizado en el servidor, donde los controladores retornan vistas HTML generadas por Thymeleaf.
 - **Spring MVC + JSP:** Aunque menos común hoy en día, también puedes usar JSP como motor de vistas, al igual que en Jakarta EE.
