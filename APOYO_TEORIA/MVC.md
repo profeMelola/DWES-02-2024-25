@@ -1,4 +1,4 @@
-# Diferentos entornos para aplicaciones web MVC
+# Comparativa de diferentes entornos y tecnologías asociadas para aplicaciones web MVC
 
 ![image](https://github.com/user-attachments/assets/50dcf927-8a57-4403-b876-7df4a36a94a4)
 
