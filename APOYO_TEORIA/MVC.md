@@ -1,8 +1,6 @@
 # Diferentos entornos para aplicaciones web MVC
 
-![image](https://github.com/user-attachments/assets/1bac0d06-faf4-45fd-8201-10d3cae58b00)
-
-![image](https://github.com/user-attachments/assets/8600e03d-b2dc-4343-a8e6-a766978f896d)
+![image](https://github.com/user-attachments/assets/50dcf927-8a57-4403-b876-7df4a36a94a4)
 
 
 
