@@ -32,12 +32,14 @@ if(errores != null && errores.size()>0){
         <input type="text" name="username" id="username" class="form-control" value="${param.username}">
     </div>
 
-  </div>
+  
       <%
       if(errores != null && errores.containsKey("username")){
-           out.println("<small class='row mb-3 alert alert-danger col-sm-4' style='color: red;'>"+ errores.get("username") + "</small>");
+           out.println("<small class='alert alert-danger col-sm-4' style='color: red;'>"+ errores.get("username") + "</small>");
       }
       %>
+  </div>
+
   <div class="row mb-3">
     <label for="password" class="col-form-label col-sm-2">Password</label>
     <div class="col-sm-4"><input type="password" name="password" id="password" class="form-control"></div>
