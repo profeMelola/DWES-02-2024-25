@@ -29,7 +29,7 @@ if(errores != null && errores.size()>0){
   <div class="row mb-3">
     <label for="username" class="col-form-label col-sm-2">Usuario</label>
     <div class="col-sm-4">
-        <input type="text" name="username" id="username" class="form-control" value="${param.username}">
+        <input type="text" name="username" id="username" class="form-control">
     </div>
 
   
@@ -52,7 +52,7 @@ if(errores != null && errores.size()>0){
 
   <div class="row mb-3">
     <label for="email" class="col-form-label col-sm-2">Email</label>
-    <div class="col-sm-4"><input type="text" name="email" id="email" class="form-control" value="${param.email}"></div>
+    <div class="col-sm-4"><input type="text" name="email" id="email" class="form-control"/></div>
     <%
         if(errores != null && errores.containsKey("email")){
              out.println("<small class='alert alert-danger col-sm-4' style='color: red;'>"+ errores.get("email") + "</small>");
@@ -102,19 +102,15 @@ if(errores != null && errores.size()>0){
   <div class="row mb-3">
     <label class="col-form-label col-sm-2">Roles</label>
     <div class="form-check col-sm-2">
-      <input type="checkbox" name="roles" value="ROLE_ADMIN"
-      ${paramValues.roles.stream().anyMatch(v->v.equals("ROLE_ADMIN"))?"checked":""}
-      class="form-check-input">
+      <input type="checkbox" name="roles" value="ROLE_ADMIN" class="form-check-input"/>
       <label class="form-check-label">Administrador</label>
     </div>
     <div class="form-check col-sm-2">
-      <input type="checkbox" name="roles" value="ROLE_USER" class="form-check-input"
-            ${paramValues.roles.stream().anyMatch(v->v.equals("ROLE_USER"))?"checked":""}>
+      <input type="checkbox" name="roles" value="ROLE_USER" class="form-check-input" />
       <label class="form-check-label">Usuario</label>
     </div>
     <div class="form-check col-sm-2">
-      <input type="checkbox" name="roles" value="ROLE_MODERATOR" class="form-check-input"
-            ${paramValues.roles.stream().anyMatch(v->v.equals("ROLE_MODERATOR"))?"checked":""}>
+      <input type="checkbox" name="roles" value="ROLE_MODERATOR" class="form-check-input" />
       <label class="form-check-label">Moderador</label>
     </div>
     <%
@@ -126,15 +122,15 @@ if(errores != null && errores.size()>0){
   <div class="row mb-3">
     <label class="col-form-label col-sm-2">Idiomas</label>
     <div class="form-check col-sm-2">
-      <input type="radio" name="idioma" value="es" class="form-check-input" ${param.idioma.equals("es")? "checked": ""}>
+      <input type="radio" name="idioma" value="es" class="form-check-input" />
       <label class="form-check-label">Español</label>
     </div>
     <div class="form-check col-sm-2">
-      <input type="radio" name="idioma" value="en" class="form-check-input" ${param.idioma.equals("en")? "checked": ""}>
+      <input type="radio" name="idioma" value="en" class="form-check-input" />
       <label class="form-check-label">Inglés</label>
     </div>
     <div class="form-check col-sm-2">
-      <input type="radio" name="idioma" value="fr" class="form-check-input" ${param.idioma.equals("fr")? "checked": ""}>
+      <input type="radio" name="idioma" value="fr" class="form-check-input" />
       <label class="form-check-label">Frances</label>
     </div>
     <%
