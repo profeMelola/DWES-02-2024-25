@@ -113,13 +113,80 @@ List<String> collect = names.stream()
 
 ```
 
-# Programación funcional
+# Programación funcional. Interfaz funcional
 
-## Consumer y Supplier
+Una interfaz funcional es una interfaz que contiene exactamente un único método abstracto. 
 
-Consumer y Supplier son dos tipos de interfaces funcionales que forman parte del paquete java.util.function. 
+Este tipo de interfaces está diseñado para ser usado en programación funcional, donde las expresiones lambda y las referencias a métodos pueden implementarlas de forma concisa.
 
-Estas interfaces son ampliamente usadas en programación funcional para manejar funciones que toman una entrada o producen una salida, especialmente en métodos de flujo (stream) y en el uso de Optional.
+Desde Java 8, las interfaces funcionales son fundamentales para utilizar las expresiones lambda y la programación funcional en Java. 
 
-- **Consumer<T>:** Toma un argumento y realiza una acción, sin devolver ningún resultado (void).
-- **Supplier<T>:** No toma argumentos y produce un resultado de tipo T.
+Estas interfaces permiten simplificar el código y hacer que sea más expresivo al enfocarse en la funcionalidad sin la necesidad de clases anónimas.
+
+## Características de una Interfaz Funcional
+
+- **Un único método abstracto:** Una interfaz funcional tiene un solo método abstracto que define la operación que la interfaz representa.
+- **Anotación @FunctionalInterface:** Aunque no es obligatoria, esta anotación ayuda a marcar la interfaz como funcional. También le indica al compilador que genere un error si la interfaz tiene más de un método abstracto, asegurando que se mantiene la naturaleza funcional de la interfaz.
+
+```
+@FunctionalInterface
+public interface Operacion {
+    int ejecutar(int a, int b);
+}
+
+```
+
+- **Métodos default o static:** Pueden contener métodos default o static, ya que estos no cuentan como métodos abstractos y no afectan el requisito de un solo método abstracto. Estos métodos pueden proporcionar comportamientos adicionales sin interferir con la funcionalidad principal de la interfaz.
+
+## Ejemplo de Uso de una Interfaz Funcional
+
+Supongamos que queremos definir una operación matemática que acepta dos enteros y devuelve un resultado entero:
+
+```
+@FunctionalInterface
+public interface Operacion {
+    int aplicar(int a, int b);
+}
+```
+
+Podemos implementar esta interfaz con una expresión lambda para hacer sumas, restas o cualquier otra operación:
+
+```
+public class EjemploInterfazFuncional {
+    public static void main(String[] args) {
+        Operacion suma = (a, b) -> a + b;
+        Operacion resta = (a, b) -> a - b;
+
+        System.out.println("Suma: " + suma.aplicar(5, 3));  // Imprime: Suma: 8
+        System.out.println("Resta: " + resta.aplicar(5, 3)); // Imprime: Resta: 2
+    }
+}
+```
+
+## Ventajas de las Interfaces Funcionales
+- **Simplificación del código:** Las expresiones lambda y las interfaces funcionales permiten que el código sea más compacto y legible.
+- **Uso en programación funcional:** Son la base de la programación funcional en Java, especialmente en combinación con Stream API, donde se utilizan en métodos como filter, map, y reduce.
+- **Compatibilidad con lambdas:** Las interfaces funcionales permiten usar expresiones lambda, que son útiles para implementar operaciones de una manera concisa y directa.
+ 
+## Interfaces Funcionales Comunes en Java
+
+Java proporciona varias interfaces funcionales en el paquete java.util.function. Algunas de las más comunes incluyen:
+
+- **Predicate<T>:** Define una condición que acepta un argumento de tipo T y devuelve un boolean.
+- **Function<T, R>:** Acepta un argumento de tipo T y devuelve un resultado de tipo R.
+- **Consumer<T>:** Realiza una operación sobre un solo argumento de tipo T sin devolver resultado.
+- **Supplier<T>:** Proporciona un resultado de tipo T sin aceptar ningún argumento.
+  
+### Ejemplo de uso de una interfaz funcional existente: Predicate<T>
+
+```
+Predicate<Integer> esPar = x -> x % 2 == 0;
+System.out.println(esPar.test(4));  // Imprime: true
+System.out.println(esPar.test(5));  // Imprime: false
+```
+
+Aquí, Predicate<Integer> es una interfaz funcional que tiene un único método abstracto, test, y se utiliza para verificar si un número es par.
+
+![image](https://github.com/user-attachments/assets/6e6e4577-9fba-465d-8946-5c0ab679122b)
+
+
