@@ -112,3 +112,12 @@ List<String> collect = names.stream()
    .collect(Collectors.toList());
 
 ```
+
+## Consumer y Supplier
+
+Consumer y Supplier son dos tipos de interfaces funcionales que forman parte del paquete java.util.function. 
+
+Estas interfaces son ampliamente usadas en programación funcional para manejar funciones que toman una entrada o producen una salida, especialmente en métodos de flujo (stream) y en el uso de Optional.
+
+- **Consumer<T>:** Toma un argumento y realiza una acción, sin devolver ningún resultado (void).
+- **Supplier<T>:** No toma argumentos y produce un resultado de tipo T.
