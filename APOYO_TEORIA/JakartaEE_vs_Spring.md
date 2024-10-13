@@ -1,13 +1,13 @@
 # Jakarta EE
 
-##Ventajas:
+## Ventajas:
 
 - **Estándar empresarial:** Jakarta EE (antes Java EE) es el estándar en el desarrollo empresarial en Java. Está respaldado por la Eclipse Foundation y por un comité de grandes empresas de tecnología. Esto asegura una alta calidad y compatibilidad, algo que es importante en aplicaciones críticas y de larga duración.
 - **Estabilidad y madurez:** Jakarta EE es conocido por ser estable y contar con una gran cantidad de recursos, bibliotecas y documentación. Las empresas que requieren estabilidad suelen preferir Jakarta EE porque ofrece especificaciones muy bien definidas.
 Compatibilidad con múltiples servidores de aplicaciones: Las aplicaciones de Jakarta EE son fáciles de implementar en una variedad de servidores como Tomcat, Payara, WildFly, etc. Esto es ideal para proyectos que necesitan cambiar de proveedor o plataforma en el futuro.
 - **Simplitud y modularidad:** Con Jakarta EE 10 y su enfoque en módulos, se ha simplificado la creación de servicios y la modularización de aplicaciones. Además, Jakarta EE 10 ha incluido mejoras de productividad que lo modernizan, especialmente en la API REST (JAX-RS), CDI (Inyección de Dependencias), y otros.
 
-##Limitaciones:
+## Limitaciones:
 
 - **Menor comunidad y ecosistema:** Aunque Jakarta EE tiene una comunidad importante, Spring domina en popularidad, especialmente en aplicaciones modernas y en el mundo de microservicios.
 Curva de aprendizaje: Aunque es estandarizado, algunos conceptos de Jakarta EE requieren tiempo de aprendizaje y no cuenta con tantas herramientas automatizadas como Spring.
