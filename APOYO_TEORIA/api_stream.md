@@ -1,3 +1,9 @@
+Os recomiendo ver el siguiente video ¿Qué es la programación funcional?
+
+[![Alt text](https://img.youtube.com/vi/W3k3IEXJ2oQ/0.jpg)](https://www.youtube.com/watch?v=W3k3IEXJ2oQ)
+
+
+
 # Java Streams
 
 ![image](https://github.com/user-attachments/assets/349c5bb6-903c-422e-be19-63db2f66ff77)
