@@ -113,6 +113,8 @@ List<String> collect = names.stream()
 
 ```
 
+# Programación funcional
+
 ## Consumer y Supplier
 
 Consumer y Supplier son dos tipos de interfaces funcionales que forman parte del paquete java.util.function. 
