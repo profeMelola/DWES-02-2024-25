@@ -1,3 +1,8 @@
+![image](https://github.com/user-attachments/assets/513b4bff-698b-4a89-bcda-b5dffeade3eb)
+
+
+https://www.spoclearn.com/blog/java-ee-vs-spring/
+
 # Jakarta EE
 
 ## Ventajas:
