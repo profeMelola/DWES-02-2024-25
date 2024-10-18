@@ -14,29 +14,29 @@ Acceso a un solo parámetro: ${param.nombreParametro}
 **Ejemplo:** Si tienes un parámetro en la URL como ?id=123, puedes accederlo usando ${param.id}.
 
 
-## 2. paramValues
+### 2. paramValues
 Similar a param, pero se utiliza para acceder a los parámetros que tienen múltiples valores (como en un checkbox con el mismo nombre).
 
 Acceso a un arreglo de valores: ${paramValues.nombreParametro}.
 
 **Ejemplo:** Si el parámetro colors tiene varios valores, puedes accederlos así: ${paramValues.colors[0]}, ${paramValues.colors[1]}, etc.
 
-## 3. header
+### 3. header
 Acceso a los encabezados HTTP de la solicitud (request.getHeader()).
 
 **Ejemplo:** ${header["User-Agent"]}.
 
-## 4. headerValues
+### 4. headerValues
 Similar a header, pero para encabezados con múltiples valores (request.getHeaders()).
 
 **Ejemplo:** ${headerValues.nombreEncabezado}.
 
-## 5. cookie
+### 5. cookie
 Permite acceder a las cookies enviadas en la solicitud.
 
 **Ejemplo:** ${cookie.nombreCookie.value}.
 
-## 6. initParam
+### 6. initParam
 Permite acceder a los parámetros de inicialización definidos en la anotación @WebServlet (initParams).
 
 **Ejemplo:** ${initParam.nombreParametro}.
