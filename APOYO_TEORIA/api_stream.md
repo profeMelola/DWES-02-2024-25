@@ -67,8 +67,19 @@ Algunas de las operaciones terminales son:
 
 https://barcochrist.medium.com/streams-en-java-5712989fc62b
 
+![image](https://github.com/user-attachments/assets/774af975-b65f-4e0e-a61b-46cedab1b3c4)
 
-## Ejemplos
+![image](https://github.com/user-attachments/assets/f0b9facf-60b5-4c07-866d-9d46a895768b)
+
+![image](https://github.com/user-attachments/assets/4bdd273a-33e4-4420-9caf-c1ca767c8f77)
+
+![image](https://github.com/user-attachments/assets/7f83a1b3-2553-4584-bf87-8bd697fcf094)
+
+![image](https://github.com/user-attachments/assets/8d5e22c1-4273-4cd2-958b-3883fc96c0b2)
+
+
+
+## Más ejemplos
 
 ```
 ArrayList<String> names =
